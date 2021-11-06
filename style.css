@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0px auto;
+    width: 950px;
+    
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* top_section - Top bar with Profile, navigation and sign out */ 
+
+#heading_section {
+    height: 55px;
+    align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile_list {
+    align-items: center; 
+    color: whitesmoke;
+    display: flex;
+    padding-left: 80px;
+}
+
+.navigation_list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+.home_list, .myprofile_list, .findconnection_list {
+    padding-left: 20px;
+}
+
+.myprofile_list {
+    font-weight: bold;
+}
+
+.signout {
+    background-color: teal;
+    font-size: 16px;
+    width: 80px;
+    height: 25px;
+    color: whitesmoke;
+    margin-right: 80px;
+}
+
+/* main_section */
+
+#main_section {
+    display: flex;
+}
+
+#profile_card {
+    border: 2px solid grey;
+    width: 470px;
+    margin-top: -35px;
+    margin-left: 80px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#user_background {
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+
+.back_color {
+    background-color: teal;
+    width: 494px;
+    height: 90px;
+}
+
+.profile_picture {
+    margin-top: -50px;
+    width: 70px;
+    border-radius: 80%;
+    border: 5px solid grey;
+    margin-left: 20px;
+}
+
+.profile_name {
+    margin-top: 40px;
+    font-weight: normal;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.location_city {
+    padding-left: 20px;
+}
+
+.map_marker {
+    width: 15px;
+}
+
+.developer {
+    padding-top: 15px;
+}
+
+#editprofile_gear {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.link {
+    padding-left: 20px;
+}
+.gear_icon {
+    width: 20px;
+}
+
+#education_info {
+    border: 2px solid grey;
+    width: 470px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.education {
+    padding-left: 20px;
+    background-color: grey;
+    height: 40px;
+    padding-top: 15px;
+    color: whitesmoke;
+}
+
+.codingdojo {
+    padding-left: 20px;
+    padding-top: 15px;
+    font-weight: normal;
+}
+
+.date {
+    padding-left: 20px;
+    padding-top: 10px;
+    color: grey;
+}
+
+.triple {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#connection, #your_connection {
+    border: 2px solid grey;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 270px;
+}
+
+.request2,.request500 {
+    color: whitesmoke;
+    font-weight: bold;
+} 
+
+.number_two, .five_hundred {
+    background-color: whitesmoke;
+    width: 45px;
+    height: 20px;
+    text-align: center ;
+    padding-top: 5px;
+    border-radius: 100px;
+}
+
+#connection_req, #connection_your   {
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    width: 270px;
+    height: 40px;
+    align-items: center;
+}
+
+#toddprofile_icons, #philprofile_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+#todd_profile, #phil_profile  {
+    display: flex;
+    align-items: center;
+}
+
+.todd_image, .phil_image, .adrien_image, .anne_image, .alayne_image, .arry_image {
+    width: 30px;
+    border-radius: 80%;
+}
+
+.todd_name, .phil_name, .adrien_name, .anne_name, .alayne_name, .arry_name {
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+#adrien_profile, #anne_profile, #alayne_profile, #arry_profile {
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#arry_profile {
+    padding-bottom: 20px;
+}
+
+
+.accept_circle, .close_circle {
+    width: 20px;
+}
+
+.viewprofile_link {
+    border-top: 2px solid grey;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+

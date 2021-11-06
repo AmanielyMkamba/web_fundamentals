@@ -1,0 +1,107 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    margin: 0px auto;
+    border: 2px solid black;
+    width: 850px;
+    height: 900px;
+}
+
+body {
+    background-color: rgb(241, 234, 234);
+    
+    
+}
+
+#heading {
+    align-items: center;
+    background-color: rgb(175, 175, 175);
+    border-bottom: 2px solid black;
+    height: 100px;
+}
+
+#profile_heading {
+    text-align: center;
+
+}
+
+#profile_footer {
+    background-color: rgb(175, 175, 175);
+    border-top: 2px solid black;
+    height: 47px;
+    margin-top: 445px;
+}
+
+#main {
+    border: 2px solid rgb(175, 175, 175);
+    margin: 50px 150px;
+    height: 280px;  
+}
+
+#back_color {
+    background-color: teal;
+    height: 83px;   
+}
+
+/* user profile picture */
+
+.user {
+    width: 80px;
+    margin-left: 20px;
+    margin-top: -50px;
+    border-radius: 80%;
+    border: 3px solid whitesmoke;
+    box-shadow: 1px 1px 5px grey;
+    
+} 
+
+.name {
+    margin-left: 20px;
+}
+
+#location {
+    padding-top: 10px;
+    display: flex;
+}
+
+.map_icon {
+    height: 20px;
+    margin-left: 20px;
+}
+
+.city {
+    margin-left: 10px;
+    text-align: center;
+    
+
+}
+
+.job {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.level {
+    margin-left: 20px;
+}
+
+#edit_profile {
+    padding-top: 10px;
+    display: flex;
+    
+}
+
+.link {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.gear {
+    margin-left: 20px;
+    width: 20px;
+}
